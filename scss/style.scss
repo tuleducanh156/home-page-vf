@@ -1,0 +1,451 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700&display=swap');
+body,
+html {
+  height: 100%;
+  margin: 0;
+  font-family: 'Mulish', sans-serif;
+  background-color: #f7f9f9;
+}
+.homeSwiper {
+  width: 100%;
+  height: 100%;
+}
+.banner {
+  background-image: url('../img/VINFAST - Future of Mobility.png');
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  &-content {
+    width: fit-content;
+    padding: 47.32px 0;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    img {
+      margin-bottom: 16.83px;
+    }
+    .title {
+      font-weight: 300;
+      font-size: 72px;
+      line-height: 80px;
+      color: #3c3c3c;
+      margin: 0 0 30px 0;
+      color: #1464f4;
+      text-align: center;
+      padding: 0 250px;
+    }
+    .price {
+      text-align: center;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 24px;
+      margin: 0 0 64px;
+    }
+    button {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-color: #ffffff;
+      font-family: 'Mulish', sans-serif;
+      font-size: 12px;
+      line-height: 20.08px;
+      letter-spacing: 1.2px;
+      font-weight: 700;
+      text-transform: uppercase;
+      color: #1464f4;
+      padding: 16.5px 113.5px;
+      border: none;
+      outline: none;
+      border-radius: 3px;
+      span {
+        font-size: 16px;
+      }
+    }
+  }
+}
+
+.cars {
+  padding: 48px 30px;
+  height: 100vh;
+  &-nav {
+    justify-content: center;
+    margin-bottom: 96px;
+    .nav-link {
+      color: #1464f4;
+      text-transform: uppercase;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 20.08px;
+      letter-spacing: 1.6px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      &.active {
+        background-color: unset !important;
+        color: #1464f4;
+        svg {
+          path {
+            stroke: #1464f4;
+          }
+        }
+      }
+      svg {
+        margin-left: 8px;
+        path {
+          stroke: transparent;
+        }
+      }
+    }
+  }
+
+  .tab-content {
+    .car-item {
+      width: fit-content;
+      img {
+        margin-top: 10px;
+        margin-left: 36px;
+        width: 70%;
+      }
+      .car-item-content {
+        margin-left: 78.5px;
+        .car-slogan {
+          font-weight: 600;
+          font-size: 14px;
+          line-height: 21px;
+          color: #3c3c3c;
+          margin-bottom: 8px;
+        }
+        .car-name {
+          font-size: 48px;
+          line-height: 60.24px;
+          letter-spacing: -0.96px;
+          font-weight: 300;
+          margin-bottom: 30px;
+        }
+        .car-info {
+          display: flex;
+          column-gap: 30px;
+          margin-bottom: 30px;
+          &-item {
+            span {
+              font-size: 12px;
+              font-weight: 600;
+              line-height: 18px;
+              margin-bottom: 8px;
+              color: #3c3c3c;
+            }
+            h4 {
+              font-weight: 300;
+              font-size: 20px;
+              line-height: 25.1px;
+              color: #3c3c3c;
+            }
+          }
+        }
+        .car-price {
+          font-weight: 600;
+          font-size: 16px;
+          line-height: 24px;
+          color: #3c3c3c;
+          margin-bottom: 30px;
+        }
+      }
+      .buttons {
+        display: flex;
+        justify-content: space-between;
+        button {
+          width: 100%;
+          border: none;
+          outline: none;
+          font-size: 12px;
+          letter-spacing: 1.2px;
+          font-weight: 700;
+          line-height: 15.06px;
+          text-transform: uppercase;
+          border-radius: 3px;
+        }
+        .deposit-button {
+          // padding: 16.5px 87.5px;
+          padding: 16.5px;
+          width: 60%;
+          white-space: nowrap;
+          background-color: #1464f4;
+          color: #ffffff;
+          &:hover {
+            background-color: #0069d9;
+          }
+        }
+        .detail-button {
+          width: 35%;
+          // padding: 16.5px 42.5px;
+          padding: 16.5px 0;
+          background-color: transparent;
+          white-space: nowrap;
+          color: #1464f4;
+        }
+      }
+    }
+  }
+}
+
+.bikes {
+  .tab-content {
+    .bike-item {
+      img {
+        margin-bottom: 24px;
+      }
+      &-content {
+        .bike-name {
+          text-transform: uppercase;
+          font-size: 48px;
+          line-height: 60.24px;
+          font-weight: 300;
+          letter-spacing: -0.96px;
+          margin-bottom: 30px;
+        }
+        .bike-info {
+          margin-bottom: 30px;
+          span {
+            font-weight: 600;
+            font-size: 12px;
+            line-height: 150%;
+          }
+          .title {
+            color: #8a8a8a;
+            margin-bottom: 8px;
+          }
+          .subtitle {
+            color: #3c3c3c;
+          }
+        }
+        .bike-price {
+          font-size: 16px;
+          font-weight: 600;
+          line-height: 24px;
+          color: #3c3c3c;
+          margin-bottom: 30px;
+        }
+      }
+      .buttons {
+        display: flex;
+        justify-content: space-between;
+        button {
+          width: 100%;
+          border: none;
+          outline: none;
+          font-size: 12px;
+          letter-spacing: 1.2px;
+          font-weight: 700;
+          line-height: 15.06px;
+          text-transform: uppercase;
+          border-radius: 3px;
+        }
+        .deposit-button {
+          // padding: 16.5px 87.5px;
+          padding: 16.5px;
+          width: 60%;
+          white-space: nowrap;
+          background-color: #ffffff;
+          border: 1px solid #1464f4;
+          color: #1464f4;
+          transition: 0.3s;
+          &:hover {
+            background-color: #1464f4;
+            color: #ffffff;
+          }
+        }
+        .detail-button {
+          width: 35%;
+          // padding: 16.5px 42.5px;
+          padding: 16.5px 0;
+          background-color: transparent;
+          white-space: nowrap;
+          color: #1464f4;
+        }
+      }
+    }
+  }
+}
+
+.battery-deposit {
+  background-image: url('../img/bao-duong.png');
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #ffffff;
+  padding: 48px 0 0 30px;
+  &-content {
+    width: 40%;
+    margin-bottom: 96px;
+    .title {
+      font-size: 48px;
+      font-weight: 300;
+      line-height: 60.24px;
+      letter-spacing: -0.96px;
+      margin-bottom: 16px;
+    }
+    .subtitle {
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+    }
+  }
+  &-warranty,
+  .maintain-booking {
+    .title {
+      font-size: 24px;
+      font-weight: 600;
+      line-height: 30.12px;
+      margin-bottom: 8px;
+    }
+    .subtitle {
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+      margin-bottom: 16px;
+    }
+    button {
+      font-size: 12px;
+      line-height: 15.06px;
+      letter-spacing: 1.2px;
+      text-transform: uppercase;
+      font-weight: 700;
+      background-color: #ffffff;
+      color: #1464f4;
+      border-radius: 3px;
+      border: none;
+      outline: none;
+      width: 236px;
+      padding: 16px 0;
+    }
+  }
+  &-warranty {
+    margin-bottom: 48px;
+  }
+}
+
+.charging-station {
+  height: 100vh;
+  position: relative;
+  .chargingSwiper {
+    height: 100%;
+  }
+  &-item {
+    height: 100%;
+    img {
+      height: 100%;
+      width: 100%;
+    }
+    .charging-station-content {
+      width: 20%;
+      position: absolute;
+      top: 48px;
+      left: 30px;
+      .puplic-charging-station,
+      .home-charging-station {
+        background-color: #ffffff;
+        color: #3c3c3c;
+        padding: 16px;
+        cursor: pointer;
+        transition: 0.3s;
+        h4 {
+          font-size: 24px;
+          font-weight: 600;
+          line-height: 30.12px;
+          margin-bottom: 8px;
+        }
+        p {
+          font-weight: 600;
+          font-size: 12px;
+          line-height: 18px;
+          margin-bottom: 16px;
+        }
+        button {
+          border: none;
+          outline: none;
+          font-size: 12px;
+          line-height: 15.06px;
+          letter-spacing: 1.2px;
+          font-weight: 700;
+          background-color: transparent;
+          text-transform: uppercase;
+          color: #1464f4;
+        }
+      }
+      .puplic-charging-station:hover,
+      .home-charging-station:hover {
+        background-color: #1464f4;
+        color: #ffffff;
+        button {
+          color: #ffffff;
+        }
+      }
+      .puplic-charging-station {
+        margin-bottom: 48px;
+      }
+    }
+  }
+}
+
+.services {
+  background-image: url('../img/services.png');
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #3c3c3c;
+  padding: 48px 0 0 30px;
+  .battery-deposit-content {
+    margin-bottom: 72px;
+    width: 25%;
+  }
+  button {
+    border: 1px solid #1464f4 !important;
+  }
+}
+
+.tradein {
+  background-image: url('../img/tradein.png');
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #3c3c3c;
+  padding: 48px 0 0 30px;
+  .tradein-content {
+    width: 25%;
+    .title {
+      font-weight: 300;
+      font-size: 48px;
+      line-height: 60.24px;
+      letter-spacing: -0.96px;
+      color: #3c3c3c;
+      margin-bottom: 16px;
+    }
+    .subtitle {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      color: #3c3c3c;
+    }
+    .detail-btn {
+      border: none;
+      outline: none;
+      background-color: transparent;
+      font-weight: 700;
+      font-size: 12px;
+      line-height: 15.06px;
+      letter-spacing: 1.2px;
+      color: #1464f4;
+      text-transform: uppercase;
+      padding-left: 0;
+    }
+  }
+}

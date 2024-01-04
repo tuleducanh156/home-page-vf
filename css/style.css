@@ -1,0 +1,539 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700&display=swap");
+body,
+html {
+  height: 100%;
+  margin: 0;
+  font-family: 'Mulish', sans-serif;
+  background-color: #f7f9f9;
+}
+
+.homeSwiper {
+  width: 100%;
+  height: 100%;
+}
+
+.banner {
+  background-image: url("../img/VINFAST - Future of Mobility.png");
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.banner-content {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 47.32px 0;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.banner-content img {
+  margin-bottom: 16.83px;
+}
+
+.banner-content .title {
+  font-weight: 300;
+  font-size: 72px;
+  line-height: 80px;
+  color: #3c3c3c;
+  margin: 0 0 30px 0;
+  color: #1464f4;
+  text-align: center;
+  padding: 0 250px;
+}
+
+.banner-content .price {
+  text-align: center;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0 0 64px;
+}
+
+.banner-content button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #ffffff;
+  font-family: 'Mulish', sans-serif;
+  font-size: 12px;
+  line-height: 20.08px;
+  letter-spacing: 1.2px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #1464f4;
+  padding: 16.5px 113.5px;
+  border: none;
+  outline: none;
+  border-radius: 3px;
+}
+
+.banner-content button span {
+  font-size: 16px;
+}
+
+.cars {
+  padding: 48px 30px;
+  height: 100vh;
+}
+
+.cars-nav {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 96px;
+}
+
+.cars-nav .nav-link {
+  color: #1464f4;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20.08px;
+  letter-spacing: 1.6px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.cars-nav .nav-link.active {
+  background-color: unset !important;
+  color: #1464f4;
+}
+
+.cars-nav .nav-link.active svg path {
+  stroke: #1464f4;
+}
+
+.cars-nav .nav-link svg {
+  margin-left: 8px;
+}
+
+.cars-nav .nav-link svg path {
+  stroke: transparent;
+}
+
+.cars .tab-content .car-item {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.cars .tab-content .car-item img {
+  margin-top: 10px;
+  margin-left: 36px;
+  width: 70%;
+}
+
+.cars .tab-content .car-item .car-item-content {
+  margin-left: 78.5px;
+}
+
+.cars .tab-content .car-item .car-item-content .car-slogan {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  color: #3c3c3c;
+  margin-bottom: 8px;
+}
+
+.cars .tab-content .car-item .car-item-content .car-name {
+  font-size: 48px;
+  line-height: 60.24px;
+  letter-spacing: -0.96px;
+  font-weight: 300;
+  margin-bottom: 30px;
+}
+
+.cars .tab-content .car-item .car-item-content .car-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 30px;
+          column-gap: 30px;
+  margin-bottom: 30px;
+}
+
+.cars .tab-content .car-item .car-item-content .car-info-item span {
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 18px;
+  margin-bottom: 8px;
+  color: #3c3c3c;
+}
+
+.cars .tab-content .car-item .car-item-content .car-info-item h4 {
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 25.1px;
+  color: #3c3c3c;
+}
+
+.cars .tab-content .car-item .car-item-content .car-price {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #3c3c3c;
+  margin-bottom: 30px;
+}
+
+.cars .tab-content .car-item .buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.cars .tab-content .car-item .buttons button {
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 12px;
+  letter-spacing: 1.2px;
+  font-weight: 700;
+  line-height: 15.06px;
+  text-transform: uppercase;
+  border-radius: 3px;
+}
+
+.cars .tab-content .car-item .buttons .deposit-button {
+  padding: 16.5px;
+  width: 60%;
+  white-space: nowrap;
+  background-color: #1464f4;
+  color: #ffffff;
+}
+
+.cars .tab-content .car-item .buttons .deposit-button:hover {
+  background-color: #0069d9;
+}
+
+.cars .tab-content .car-item .buttons .detail-button {
+  width: 35%;
+  padding: 16.5px 0;
+  background-color: transparent;
+  white-space: nowrap;
+  color: #1464f4;
+}
+
+.bikes .tab-content .bike-item img {
+  margin-bottom: 24px;
+}
+
+.bikes .tab-content .bike-item-content .bike-name {
+  text-transform: uppercase;
+  font-size: 48px;
+  line-height: 60.24px;
+  font-weight: 300;
+  letter-spacing: -0.96px;
+  margin-bottom: 30px;
+}
+
+.bikes .tab-content .bike-item-content .bike-info {
+  margin-bottom: 30px;
+}
+
+.bikes .tab-content .bike-item-content .bike-info span {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 150%;
+}
+
+.bikes .tab-content .bike-item-content .bike-info .title {
+  color: #8a8a8a;
+  margin-bottom: 8px;
+}
+
+.bikes .tab-content .bike-item-content .bike-info .subtitle {
+  color: #3c3c3c;
+}
+
+.bikes .tab-content .bike-item-content .bike-price {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  color: #3c3c3c;
+  margin-bottom: 30px;
+}
+
+.bikes .tab-content .bike-item .buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.bikes .tab-content .bike-item .buttons button {
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 12px;
+  letter-spacing: 1.2px;
+  font-weight: 700;
+  line-height: 15.06px;
+  text-transform: uppercase;
+  border-radius: 3px;
+}
+
+.bikes .tab-content .bike-item .buttons .deposit-button {
+  padding: 16.5px;
+  width: 60%;
+  white-space: nowrap;
+  background-color: #ffffff;
+  border: 1px solid #1464f4;
+  color: #1464f4;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.bikes .tab-content .bike-item .buttons .deposit-button:hover {
+  background-color: #1464f4;
+  color: #ffffff;
+}
+
+.bikes .tab-content .bike-item .buttons .detail-button {
+  width: 35%;
+  padding: 16.5px 0;
+  background-color: transparent;
+  white-space: nowrap;
+  color: #1464f4;
+}
+
+.battery-deposit {
+  background-image: url("../img/bao-duong.png");
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #ffffff;
+  padding: 48px 0 0 30px;
+}
+
+.battery-deposit-content {
+  width: 40%;
+  margin-bottom: 96px;
+}
+
+.battery-deposit-content .title {
+  font-size: 48px;
+  font-weight: 300;
+  line-height: 60.24px;
+  letter-spacing: -0.96px;
+  margin-bottom: 16px;
+}
+
+.battery-deposit-content .subtitle {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.battery-deposit-warranty .title,
+.battery-deposit .maintain-booking .title {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 30.12px;
+  margin-bottom: 8px;
+}
+
+.battery-deposit-warranty .subtitle,
+.battery-deposit .maintain-booking .subtitle {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 16px;
+}
+
+.battery-deposit-warranty button,
+.battery-deposit .maintain-booking button {
+  font-size: 12px;
+  line-height: 15.06px;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  font-weight: 700;
+  background-color: #ffffff;
+  color: #1464f4;
+  border-radius: 3px;
+  border: none;
+  outline: none;
+  width: 236px;
+  padding: 16px 0;
+}
+
+.battery-deposit-warranty {
+  margin-bottom: 48px;
+}
+
+.charging-station {
+  height: 100vh;
+  position: relative;
+}
+
+.charging-station .chargingSwiper {
+  height: 100%;
+}
+
+.charging-station-item {
+  height: 100%;
+}
+
+.charging-station-item img {
+  height: 100%;
+  width: 100%;
+}
+
+.charging-station-item .charging-station-content {
+  width: 20%;
+  position: absolute;
+  top: 48px;
+  left: 30px;
+}
+
+.charging-station-item .charging-station-content .puplic-charging-station,
+.charging-station-item .charging-station-content .home-charging-station {
+  background-color: #ffffff;
+  color: #3c3c3c;
+  padding: 16px;
+  cursor: pointer;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.charging-station-item .charging-station-content .puplic-charging-station h4,
+.charging-station-item .charging-station-content .home-charging-station h4 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 30.12px;
+  margin-bottom: 8px;
+}
+
+.charging-station-item .charging-station-content .puplic-charging-station p,
+.charging-station-item .charging-station-content .home-charging-station p {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  margin-bottom: 16px;
+}
+
+.charging-station-item .charging-station-content .puplic-charging-station button,
+.charging-station-item .charging-station-content .home-charging-station button {
+  border: none;
+  outline: none;
+  font-size: 12px;
+  line-height: 15.06px;
+  letter-spacing: 1.2px;
+  font-weight: 700;
+  background-color: transparent;
+  text-transform: uppercase;
+  color: #1464f4;
+}
+
+.charging-station-item .charging-station-content .puplic-charging-station:hover,
+.charging-station-item .charging-station-content .home-charging-station:hover {
+  background-color: #1464f4;
+  color: #ffffff;
+}
+
+.charging-station-item .charging-station-content .puplic-charging-station:hover button,
+.charging-station-item .charging-station-content .home-charging-station:hover button {
+  color: #ffffff;
+}
+
+.charging-station-item .charging-station-content .puplic-charging-station {
+  margin-bottom: 48px;
+}
+
+.services {
+  background-image: url("../img/services.png");
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #3c3c3c;
+  padding: 48px 0 0 30px;
+}
+
+.services .battery-deposit-content {
+  margin-bottom: 72px;
+  width: 25%;
+}
+
+.services button {
+  border: 1px solid #1464f4 !important;
+}
+
+.tradein {
+  background-image: url("../img/tradein.png");
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #3c3c3c;
+  padding: 48px 0 0 30px;
+}
+
+.tradein .tradein-content {
+  width: 25%;
+}
+
+.tradein .tradein-content .title {
+  font-weight: 300;
+  font-size: 48px;
+  line-height: 60.24px;
+  letter-spacing: -0.96px;
+  color: #3c3c3c;
+  margin-bottom: 16px;
+}
+
+.tradein .tradein-content .subtitle {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #3c3c3c;
+}
+
+.tradein .tradein-content .detail-btn {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15.06px;
+  letter-spacing: 1.2px;
+  color: #1464f4;
+  text-transform: uppercase;
+  padding-left: 0;
+}
+/*# sourceMappingURL=style.css.map */
