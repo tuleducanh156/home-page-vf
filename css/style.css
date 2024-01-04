@@ -536,4 +536,388 @@ html {
   text-transform: uppercase;
   padding-left: 0;
 }
+@media (max-width: 767px) {
+  .homeSwiper .swiper-pagination {
+    display: block;
+  }
+}
+@media (max-width: 768px) {
+  .desktop-img {
+    display: none;
+  }
+}
+@media (max-width: 767px) {
+  .mobile-img {
+    display: block;
+  }
+}
+@media (max-width: 1023px) {
+  .banner-content .title {
+    padding: 0 130px;
+    font-size: 46px;
+    line-height: 60px;
+  }
+}
+@media (max-width: 767px) {
+  .banner-content .title {
+    font-size: 40px;
+    padding: 0 30px;
+    line-height: 50.2px;
+    letter-spacing: -0.08px;
+  }
+}
+@media (max-width: 1023px) {
+  .banner-content a {
+    padding: 14.5px 100.5px;
+  }
+}
+@media (max-width: 767px) {
+  .cars-nav {
+    flex-wrap: nowrap !important;
+    justify-content: space-between;
+    overflow: scroll;
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 767px) {
+  .cars-nav .nav-link {
+    white-space: nowrap;
+  }
+}
+@media (max-width: 767px) {
+  .cars .electric-swiper .swiper-wrapper,
+.cars .gasoline-swiper .swiper-wrapper {
+    padding-bottom: 30px;
+    justify-content: space-between;
+  }
+}
+@media (max-width: 767px) {
+  .cars .electric-swiper .swiper-horizontal > .swiper-pagination-bullets,
+.cars .electric-swiper .swiper-pagination-bullets.swiper-pagination-horizontal,
+.cars .gasoline-swiper .swiper-horizontal > .swiper-pagination-bullets,
+.cars .gasoline-swiper .swiper-pagination-bullets.swiper-pagination-horizontal {
+    bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    -moz-column-gap: 16px;
+         column-gap: 16px;
+  }
+}
+@media (max-width: 767px) {
+  .cars .electric-swiper .swiper-slide {
+    width: initial;
+  }
+}
+@media (max-width: 767px) {
+  .cars .gasoline-swiper .swiper-slide {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+}
+@media (max-width: 767px) {
+  .cars .tab-content #gasoline-car .car-item {
+    transform: unset;
+  }
+}
+@media (max-width: 767px) {
+  .cars .tab-content .car-item img {
+    width: initial;
+  }
+}
+@media (max-width: 767px) {
+  .cars .tab-content .car-item .car-item-content .car-name {
+    font-size: 40px;
+    line-height: 50.2px;
+  }
+}
+@media (max-width: 767px) {
+  .cars .tab-content .car-item .car-item-content .car-info {
+    justify-content: space-between;
+  }
+}
+@media (max-width: 767px) {
+  .cars .tab-content .car-item .car-item-content .car-info-item h4 {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+@media (max-width: 767px) {
+  .cars .tab-content .car-item .buttons {
+    flex-direction: column;
+  }
+}
+@media (max-width: 767px) {
+  .cars .tab-content .car-item .buttons .deposit-button {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+}
+@media (max-width: 767px) {
+  .cars .tab-content .car-item .buttons .detail-button {
+    width: 100%;
+  }
+}
+@media (max-width: 767px) {
+  .cars .car-item .img-360 {
+    display: none;
+  }
+}
+@media (max-width: 767px) {
+  .cars .car-item:hover .static-img {
+    display: block;
+    visibility: visible;
+    opacity: 1;
+    position: relative;
+  }
+}
+@media (max-width: 767px) {
+  .cars .car-item:hover .img-360 {
+    display: none;
+  }
+}
+@media (max-width: 767px) {
+  .bikes .tab-content .bike-item {
+    background-color: #f7f9f9;
+    padding: 0;
+  }
+}
+@media (max-width: 767px) {
+  .bikes .tab-content .bike-item .buttons {
+    flex-direction: column;
+  }
+}
+@media (max-width: 767px) {
+  .bikes .tab-content .bike-item .buttons .deposit-button {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 767px) {
+  .bikes .tab-content .bike-item .buttons .detail-button {
+    width: 100%;
+  }
+}
+@media (max-width: 767px) {
+  .bikes .carSwiper {
+    padding-bottom: 30px;
+  }
+}
+@media (max-width: 767px) {
+  .bikes .carSwiper .swiper-horizontal > .swiper-pagination-bullets,
+.bikes .carSwiper .swiper-pagination-bullets.swiper-pagination-horizontal {
+    bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    -moz-column-gap: 16px;
+         column-gap: 16px;
+  }
+}
+@media (max-width: 767px) {
+  .bikes .carSwiper .swiper-slide {
+    width: auto;
+  }
+}
+@media (max-width: 767px) {
+  .battery-deposit img {
+    height: initial;
+    bottom: 0;
+  }
+}
+@media (max-width: 767px) {
+  .battery-deposit .battery-img {
+    height: initial;
+  }
+}
+@media (max-width: 767px) {
+  .battery-deposit-content {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 767px) {
+  .battery-deposit-content .title {
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: -0.02em;
+  }
+}
+@media (max-width: 767px) {
+  .battery-deposit-content .subtitle {
+    font-size: 14px;
+    line-height: 21px;
+    padding-right: 16px;
+  }
+}
+@media (max-width: 767px) {
+  .battery-deposit-warranty .title,
+.battery-deposit .maintain-booking .title {
+    line-height: 27px;
+    font-size: 18px;
+  }
+}
+@media (max-width: 767px) {
+  .battery-deposit-background {
+    background-size: contain;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+}
+@media (max-width: 767px) {
+  #batteryDeposit .battery-deposit-item {
+    padding-top: 0;
+  }
+}
+@media (max-width: 767px) {
+  .charging-station-item img {
+    height: initial;
+    bottom: 0;
+  }
+}
+@media (max-width: 767px) {
+  .charging-station-item .charging-station-content {
+    width: 100%;
+    left: 0;
+  }
+}
+@media (max-width: 767px) {
+  .charging-station-item .charging-station-content .home-charging-station h4 {
+    font-size: 40px;
+    line-height: 50.2px;
+    letter-spacing: -0.08px;
+  }
+}
+@media (max-width: 767px) {
+  .charging-station-item .charging-station-content .home-charging-station p {
+    font-size: 14px;
+    line-height: 21px;
+  }
+}
+@media (max-width: 767px) {
+  .charging-station-background {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+  }
+}
+@media (max-width: 767px) {
+  .services .services-desktop-img {
+    display: none;
+  }
+}
+@media (max-width: 767px) {
+  .services .services-mobile-img {
+    display: block;
+    height: 100vh !important;
+  }
+}
+@media (max-width: 767px) {
+  .services-background {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+  }
+}
+@media (max-width: 767px) {
+  .services .battery-deposit-content {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 767px) {
+  .services .services-content {
+    height: 100%;
+  }
+}
+@media (max-width: 767px) {
+  .services .services-content .title {
+    white-space: normal;
+  }
+}
+@media (max-width: 767px) {
+  .customer-services .desktop-img {
+    display: none;
+  }
+}
+@media (max-width: 767px) {
+  .customer-services .mobile-img {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    height: 100vh;
+    width: 100%;
+    transition: 0.4s;
+  }
+}
+@media (max-width: 767px) {
+  .customer-services .add-footer {
+    bottom: 110px;
+  }
+}
+.customer-services-background {
+  display: none;
+}
+@media (max-width: 767px) {
+  .customer-services-background {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+  }
+}
+@media (max-width: 767px) {
+  .customer-services .customer-services-content {
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 48px 0 0 16px;
+  }
+}
+@media (max-width: 767px) {
+  .customer-services .customer-services-content .title {
+    white-space: normal;
+    font-size: 40px;
+    line-height: 50.2px;
+    letter-spacing: -0.08px;
+  }
+}
+@media (max-width: 767px) {
+  .customer-services .customer-services-content .subtitle {
+    font-size: 14px;
+    line-height: 21px;
+  }
+}
+@media (max-width: 767px) {
+  .resize-card {
+    width: 100% !important;
+  }
+}
+@media (max-width: 767px) {
+  .footer-fixed {
+    display: none !important;
+  }
+}
 /*# sourceMappingURL=style.css.map */
